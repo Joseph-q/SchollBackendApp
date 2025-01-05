@@ -33,7 +33,7 @@ var serverCmd = &cobra.Command{
 }
 
 func runApplication() {
-	conf, _ := config.Load("/home/joseph/registroAlumnos/SchoolPr/config/config_develop.yaml")
+	conf, _ := config.Load("config/config_develop.yaml")
 
 	app := fx.New(
 		fx.Supply(conf),
