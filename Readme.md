@@ -14,7 +14,7 @@ Before getting started, ensure the following dependencies are installed on your 
 
 ### 1️⃣ Clone the Repository  
 ```sh
-git clone https://github.com/Joseph-q/SchoolBackendApp
+git clone https://github.com/Joseph-q/SchollBackendApp
 ```
 
 ### 2️⃣ Navigate to the Project Directory  
