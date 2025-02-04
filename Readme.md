@@ -31,8 +31,10 @@ docker build -t school_backend .
 ```sh
 docker compose -f docker-compose.yml up -d
 ```
-
 🎉 **Congratulations!** Your backend is now up and running! 🚀
+
+You can access it at **localhost:8080**. For example, try the following URL:  
+[http://localhost:8080/students](http://localhost:8080/students)
 
 If you need any help or have questions, don’t hesitate to reach out. I’m here for you! 📩  
 **contact@juseph.dev**
