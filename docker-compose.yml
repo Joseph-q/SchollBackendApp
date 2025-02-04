@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   SCHOOL_API:
-    image: myapp
+    image: school_backend
     volumes:
       - /home/joseph/registroAlumnos/SchoolPr/config:/root/config
       - /home/joseph/registroAlumnos/SchoolPr/database:/root/database
