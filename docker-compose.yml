@@ -2,6 +2,8 @@ version: '3.8'
 services:
   SCHOOL_API:
     image: school_backend
+    ports:
+      - "8080:8080"
     volumes:
-      - /home/joseph/registroAlumnos/SchoolPr/config:/root/config
-      - /home/joseph/registroAlumnos/SchoolPr/database:/root/database
+      - ./config:/root/config
+      - ./database:/root/database
