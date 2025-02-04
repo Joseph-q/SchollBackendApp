@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
+	"log"
 	"net/http"
 	"time"
 
@@ -33,7 +34,12 @@ var serverCmd = &cobra.Command{
 }
 
 func runApplication() {
-	conf, _ := config.Load("config/config_develop.yaml")
+	conf, err := config.Load("config/config_develop.yaml")
+
+	if err != nil {
+		log.Fatal("Error al cargar configuracion ", err)
+		return
+	}
 
 	app := fx.New(
 		fx.Supply(conf),
