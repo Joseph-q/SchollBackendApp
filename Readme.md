@@ -19,7 +19,7 @@ git clone https://github.com/Joseph-q/SchollBackendApp
 
 ### 2️⃣ Navigate to the Project Directory  
 ```sh
-cd SchoolBackendApp
+cd SchollBackendApp/
 ```
 
 ### 3️⃣ Build the Docker Image  
