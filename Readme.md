@@ -32,6 +32,11 @@ docker build -t school_backend .
 docker compose -f docker-compose.yml up -d
 ```
 
+🎉 **Congratulations!** Your backend is now up and running! 🚀
+
+If you need any help or have questions, don’t hesitate to reach out. I’m here for you! 📩  
+**contact@juseph.dev**
+
 ### ⚙️ Configuration  
 
 #### 📂 Changing Data Storage Location  
@@ -41,14 +46,14 @@ services:
   SCHOOL_API:
     .....
     volumes:
-      - /home/joseph/registroAlumnos/SchoolPr/config:/root/config
+      - route/to/you/config:/root/config
 ```
 
 #### 🛠️ General Configuration  
 To change other settings, such as the database URL or additional configuration options, edit the **config/config_develop.yaml** file and update the necessary values:  
 ```yaml
 database:
-  url: "your_new_url"
+  url: "your/new/database/url"
 ```
 
 ## 🌐 Frontend Interface  
